@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "dev": "backpack"
   },
   "author": "",
   "license": "ISC",
@@ -13,6 +14,7 @@
     "webpack": "^3.6.0"
   },
   "dependencies": {
+    "backpack-core": "^0.4.3",
     "chai": "^4.1.2"
   }
 }
